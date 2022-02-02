@@ -5,7 +5,7 @@ let tasks = require('../data/tasks.json');
 const taskDataProvider = {
     getAll: () => ( tasks ),
     getById: (id) => ( tasks.find(x => x.id.toString() === id.toString()) ),
-    find: (x) => ( tasks.find(x) ),
+    find: (x) => ( tasks.filter(x) ),
     create,
     update,
     delete: _delete

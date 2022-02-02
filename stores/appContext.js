@@ -1,4 +1,7 @@
 
+//Cross-origin resource sharing is a mechanism that allows restricted resources
+// on a web page to be requested from another domain outside the domain from which the first resource was served. 
+
 import React, {createContext, useState, useEffect, useContext, useMemo, } from 'react';
 import axios from 'axios';
 import getConfig from 'next/config'
@@ -25,7 +28,11 @@ export const AppContextProvider = ({children}) =>{
     
     const login = async (username, password) =>{
          
-        return await axios.post(`${baseUrl}/authenticate`, { username, password })
+        return await axios.post(`${baseUrl}/authenticate`, { username, password },{headers:
+            {
+                'Access-Control-Allow-Origin' : '*'
+            }
+        })
         .then(res => {        
             const user = res.data;     
             setUser(user);
@@ -50,7 +57,6 @@ export const AppContextProvider = ({children}) =>{
         .then(res => {   
            
             const user = res.data;
-         
             const data = new FormData();
             data.append("image", userImageFile);
             data.append("name", user.username);
@@ -70,7 +76,7 @@ export const AppContextProvider = ({children}) =>{
     
     const getDepartments = () =>{
                 
-        return axios.post(`${baseUrl}/departments`)
+        return axios.post(`https://dev.powerlineplus.com/test/interview`)
         .then( res => {      
            
             setDepartments(res.data); 
@@ -109,19 +115,6 @@ export const AppContextProvider = ({children}) =>{
         });   
     }
 
-    // const contextValue = useMemo(() => { 
-    //     return {
-    //         user, 
-    //         login, 
-    //         logout, 
-    //         register, 
-    //         departments,
-    //         getDepartments,
-    //         userTasks, 
-    //         loadUserTasks, 
-    //         saveTask
-    //     };  
-    // }, [user, departments, userTasks]);
     const contextValue = {
                         user, 
                         login, 

@@ -42,5 +42,22 @@
         "imgUrl": "",
         "dateCreated": "2022-02-02T12:20:54.392Z",
         "dateUpdated": "2022-02-02T12:20:54.392Z"
+    },
+    {
+        "firstName": "aaaa",
+        "lastName": "xxx",
+        "username": "sa",
+        "departmentId": 2,
+        "hash": "$2a$10$OLgpWniQ0oMXDUHVXmJwMel0GKXeTXdM11Wc1sWpalMI.ETEKIZLC",
+        "id": "uuwva5cyqkz5njepw",
+        "imgUrl": "",
+        "dateCreated": "2022-02-02T14:35:31.267Z",
+        "dateUpdated": "2022-02-02T14:35:31.267Z"
+    },
+    {
+        "id": "uuwva5cyqkz5npwc3",
+        "imgUrl": "",
+        "dateCreated": "2022-02-02T14:40:34.035Z",
+        "dateUpdated": "2022-02-02T14:40:34.035Z"
     }
 ]
