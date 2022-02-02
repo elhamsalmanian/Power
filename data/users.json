@@ -1,0 +1,46 @@
+[
+    {
+        "firstName": "elham",
+        "lastName": "salmanian",
+        "username": "eli",
+        "departmentId": "3",
+        "hash": "$2a$10$9gD2VxK2/O8F/b80luZXI./mkEGrNprDDA1IwWYYJpW0ReieZkqMa",
+        "id": 1,
+        "imgUrl": "public/images/usersImages/eli.png",
+        "dateCreated": "2022-01-25T09:11:34.866Z",
+        "dateUpdated": "2022-01-25T09:11:34.866Z"
+    },
+    {
+        "firstName": "tt",
+        "lastName": "tt",
+        "username": "tt",
+        "departmentId": "0",
+        "hash": "$2a$10$VDqHTpztSEyh806fMRb8V.1vGdN40Q3KUp5WLxqmLNhvgGDm0j8Om",
+        "id": "idfo6810kz2rj3xz",
+        "imgUrl": "public/images/usersImages/tt-Eli2.jpeg",
+        "dateCreated": "2022-01-31T14:03:57.238Z",
+        "dateUpdated": "2022-01-31T14:03:58.603Z"
+    },
+    {
+        "firstName": "ww",
+        "lastName": "ww",
+        "username": "ww",
+        "departmentId": "0",
+        "hash": "$2a$10$yaN5AaSUNfTOVHeuGpReVeWmiIj09P0WDG75/u.h5SYUE1073B9gi",
+        "id": "idfo6810kz2rm3qt",
+        "imgUrl": "public/images/usersImages/ww-Eli4.jpeg",
+        "dateCreated": "2022-01-31T14:06:16.949Z",
+        "dateUpdated": "2022-01-31T14:06:17.484Z"
+    },
+    {
+        "firstName": "oo",
+        "lastName": "oo",
+        "username": "oo",
+        "departmentId": "1",
+        "hash": "$2a$10$dib0ktRbtio5VY.XFxhwv.c7CDwiLjv1t4t4JzvQ/dailYTInEZUu",
+        "id": "uuwva582ykz5iqak9",
+        "imgUrl": "",
+        "dateCreated": "2022-02-02T12:20:54.392Z",
+        "dateUpdated": "2022-02-02T12:20:54.392Z"
+    }
+]

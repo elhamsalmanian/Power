@@ -1,0 +1,50 @@
+[
+    {
+        "id":0,
+        "title": ""
+    },
+    {
+        "id":1,
+        "title": "IT"
+    },
+    {
+        "id":2,
+        "title": "Accounting"
+    },
+    {
+        "id":3,
+        "title": "Admin"
+    },
+    {
+        "id":4,
+        "title": "Civil"
+    },
+    {
+        "id":5,
+        "title": "Electrical"
+    },
+    {
+        "id":6,
+        "title": "Design"
+    },
+    {
+        "id":7,
+        "title": "Inspection"
+    },
+    {
+        "id":8,
+        "title": "Maintenance"
+    },
+    {
+        "id":9,
+        "title": "Warehouse"
+    },
+    {
+        "id":10,
+        "title": "Mechanic"
+    },
+    {
+        "id":11,
+        "title": "PMO"
+    }
+]
